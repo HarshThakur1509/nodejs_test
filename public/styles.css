@@ -1,0 +1,42 @@
+body {
+    background-color: aliceblue;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+nav ul {
+    display: flex;
+    gap: 1rem;
+}
+
+button {
+    font-weight: bolder;
+    border-radius: 5px;
+    background-color: aqua;
+    border: 0px;
+    height: 2rem;
+    width: 3rem;
+    transition: all 0.5s ease-in-out;
+}
+
+button:hover {
+    height: 3rem;
+    width: 5rem;
+}
+
+.post {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: center;
+    gap: 1rem;
+}

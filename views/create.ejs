@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('./partials/head.ejs') %>
+  <body>
+    <%- include('./partials/nav.ejs') %>
+    <form action="/blogs" method="POST" class="post">
+      <input type="text" name="title" placeholder="Title" required />
+      <input type="text" name="snippet" placeholder="Snippet" required />
+      <textarea
+        cols="30"
+        rows="10"
+        name="body"
+        placeholder="Body"
+        required
+      ></textarea>
+      <button>Post</button>
+    </form>
+  </body>
+</html>
